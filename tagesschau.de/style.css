@@ -1,0 +1,123 @@
+/*
+MIT License
+
+Copyright (c) 2025 Vincenz Ernst, github.com/vinc3nz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+:root {
+  --better-ts-radius-big: 40px;
+  --better-ts-radius-small: 25px;
+}
+
+img {
+  border-radius: var(--better-ts-radius-big) !important;
+}
+.ardplayer-posterframe {
+  border-radius: var(--better-ts-radius-big) !important;
+}
+.ardplayer {
+  border-radius: var(--better-ts-radius-big) !important;
+}
+.header-fancy-v2 {
+  border-radius: var(--better-ts-radius-big) !important;
+  background-color: rgba(0,0,0,0) !important;
+}
+details {
+  border-radius: var(--better-ts-radius-big) !important;
+  background-color: rgba(0,0,0,0) !important;
+  backdrop-filter: blur(25px) !important;
+  -webkit-backdrop-filter: blur(25px) !important;
+}
+.header__items {
+  background-color: rgba(0,0,0,0) !important;
+}
+.burger-button-animated {
+  background-color: rgba(0,0,0,0) !important;
+}
+.burger-navi-menu {
+  background-color: rgba(0,0,0,0) !important;
+}
+.burger-navi {
+  background-color: rgba(0,0,0,0) !important;
+}
+.burger-panel {
+  background-color: rgba(0,0,0,0) !important;
+}
+.dynamic-navigation-item {
+  background-color: rgba(0,0,0,0) !important;
+}
+.dynamic-navigation__link {
+  background-color: rgba(0,0,0,0) !important;
+}
+.searchfield__input {
+  background-color: rgba(0,0,0,0) !important;
+}
+.bigfive {
+  background-color: rgba(0,0,0,0) !important;
+}
+.ardplayer-cast-label {
+  background-color: #1c2841 !important;
+}
+.ardplayer-hidden {
+  background-color: #1c2841 !important;
+}
+.columns, .teaser, .teaser--top, .teaser__teaserinfo, .searchfield__reset, .ts-picture, img, .ts-picture__wrapper, .backshadow, .color--tongue, .buttongroup, .trenner, .footer, .accordion__header, .accordion__label-wrapper, .container, .header-app__content, .mediaplayer, .authorline, .socialbuttons {
+  background-color: rgba(0,0,0,0) !important;
+  border: none !important;
+}
+.burger-navi {
+  padding-top: 5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .layout-content, .layout-content.scrolled {
+    padding-top: 15rem !important;
+  }
+}
+.burger-panel__pagelink:hover, .burger-panel__submenulink:hover, .home__link:hover, .subnav__item>a:hover, .endline, .header-app__close {
+  background-color: rgba(255,255,255,0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border-radius: var(--better-ts-radius-small) !important;
+}
+li {
+  border: none !important;
+}
+.colums.color--tongue, .background-highlight {
+  background-color: rgba(255,255,255,0.2) !important;
+  border-radius: var(--better-ts-radius-big)
+}
+.image-rights {
+  background-color: rgba(255,255,255,0) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border-radius: var(--better-ts-radius-big) !important;
+  margin-top: 10px !important;
+}
+.ts-picture {
+  font-size: 0px !important;
+  line-height: 0 !important;
+}
+@media screen and (min-width: 768px) {
+  .image-rights {
+    padding-bottom: 0rem !important;
+  }
+}
